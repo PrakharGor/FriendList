@@ -1,0 +1,62 @@
+.container{
+  width: 420px;
+  margin: 20px auto;
+  border: solid 1px #ccc
+}
+.panelTitle{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  background: #dfdfdf;
+}
+.inputPanel{
+  margin: 0;
+    padding: 0;
+    align-items: start;
+    display: flex;
+}
+.inputPanel input{
+  border: 0 none;
+    width: 100%;
+    margin: 0;
+    padding: 4;
+    height: 28px;
+  
+}
+.friendList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.friendList > li{
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 28px;
+
+}
+.friendList > li{
+  border-top: solid 1px #ccc
+
+}
+.friendList > li:hover{
+  background: #efefef;
+}
+.actionPanel{
+  width: 15%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  
+}
+
+.actionPanel > .fa{
+   font-size: 16px;
+    cursor: pointer;
+    margin-left: 4px;
+    padding: 4px;
+    border: solid 1px #2c2c2c;
+    background: #fff;
+}
